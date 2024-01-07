@@ -1,59 +1,111 @@
 * {
-    margin: 0px;
-    font-family: "Open Sans", sans-serif;
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .nav-title {
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 800;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
 }
 
 .text-orange {
-    color: #fd6e0a;
+  color: #fd6e0a;
 }
 
 .btn-orange {
-    border-radius: 5px;
-    background: #fd6e0a;
-    border: none;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 15px 30px;
-    cursor: pointer;
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 13px 20px;
+  cursor: pointer;
 }
-
 .btn-orange:hover {
-    background: #d95f08;
+  background: #d95f08;
+}
+.btn-outline {
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fd6e0a;
+  cursor: pointer;
+  border: 1px solid #fd6e0a;
+  margin-left: 2%;
+}
+.btn-outline:hover {
+  background: #fd6e0a;
+  color: #fff;
+
+  
 }
 
 header {
-    background: #FFF8F3;
+  background: #fff8f3;
+  background-image: url("../images/developer.png"),
+    url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: left 3% center, bottom right;
+  background-size: 5.5% auto, auto 64%;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 200px;
+  display: flex;
+  justify-content: space-around;
+  padding: 2% 3% 2% 0%;
 }
 
 nav ul {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 nav ul li {
-    list-style: none;
-    margin-left: 100px;
+  list-style: none;
+  margin-left: 50px;
 }
 
 a {
-    text-decoration: none;
-    color: #474747;
+  text-decoration: none;
+  color: #474747;
 }
 
-nav ul li>a:hover {
-    color: #fd6e0a;
-    text-decoration: underline;
+nav ul li > a:hover {
+  color: #fd6e0a;
+  text-decoration: underline;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  margin-left: 14%;
+}
+.banner-info {
+  width: 55%;
+}
+.banner-info h2{
+    color: #474747;
+
+font-size: 45px;
+
+font-weight: 600;
+}
+.banner-info p{
+    padding: 3% 0;
+width: 80%;
+font-size: medium;
+color: #757575;
+}
+.banner-info h1{
+    color: #181818;
+
+font-size: 70px;
+font-style: normal;
+font-weight: 700;
+}
+.banner img {
+  width: 40%;
 }
