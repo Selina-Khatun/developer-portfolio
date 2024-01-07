@@ -123,7 +123,7 @@ nav ul li > a:hover {
 .banner img {
   width: 40%;
 }
-
+/* ******** about-me section styles********* */
 .about-container {
   width: 70%;
   margin: 8% auto;
@@ -154,3 +154,22 @@ font-weight: 700;
   color: #474747;
 }
 
+/* ************ What-i-do section styles *********** */
+
+.what-I-do-container{
+  width: 70%;
+  margin: 8% auto;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff8f3;
+  text-align: center;
+  padding: 5%;
+}
+.card-container{
+  display: flex;
+  justify-content: space-around;
+  gap: 3%;
+}
+.card{
+text-align: justify;
+}
