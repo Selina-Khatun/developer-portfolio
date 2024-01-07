@@ -29,7 +29,7 @@ body {
 .btn-outline {
   border-radius: 5px;
   padding: 12px 20px;
-  background:#fff8f3 ;
+  background: #fff8f3;
   font-size: 16px;
   font-weight: 600;
   color: #fd6e0a;
@@ -135,41 +135,50 @@ nav ul li > a:hover {
 }
 .about-me p {
   padding: 3% 8%;
-  color: var(--Dark-03, #757575);
+  color: #757575;
   line-height: 28px;
 }
 
-.section-title{
+.section-title {
   color: #181818;
-font-size: 35px;
-font-weight: 700;
-
+  font-size: 35px;
+  font-weight: 700;
 }
 .about-info {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-.about-info h4{
+.about-info h4 {
   color: #474747;
 }
 
 /* ************ What-i-do section styles *********** */
 
-.what-I-do-container{
-  width: 70%;
+.what-I-do-container {
+  width: 80%;
   margin: 8% auto;
-  flex-shrink: 0;
   border-radius: 10px;
-  background: #fff8f3;
   text-align: center;
   padding: 5%;
 }
-.card-container{
+.card-container {
   display: flex;
   justify-content: space-around;
   gap: 3%;
 }
-.card{
-text-align: justify;
+.card {
+  text-align: justify;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 3%;
+}
+.card h4 {
+  padding: 6% 0;
+}
+.section-description {
+  color: #757575;
+  font-size: 16px;
+  
 }
