@@ -126,7 +126,7 @@ nav ul li > a:hover {
 /* ******** about-me section styles********* */
 .about-container {
   width: 70%;
-  margin: 8% auto;
+  margin: 8% auto 1%;
   flex-shrink: 0;
   border-radius: 10px;
   background: #fff8f3;
@@ -143,6 +143,7 @@ nav ul li > a:hover {
   color: #181818;
   font-size: 35px;
   font-weight: 700;
+  text-align: center;
 }
 .about-info {
   display: flex;
@@ -157,7 +158,8 @@ nav ul li > a:hover {
 
 .what-I-do-container {
   width: 80%;
-  margin: 8% auto;
+  margin: auto;
+
   border-radius: 10px;
   text-align: center;
   padding: 5%;
@@ -180,5 +182,30 @@ nav ul li > a:hover {
 .section-description {
   color: #757575;
   font-size: 16px;
-  
 }
+
+.resume-info-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 4%;
+  width: 80%;
+  margin: auto;
+}
+.resume-container p {
+  color: #757575;
+  font-size: 16px;
+}
+.resume-container h4 {
+   padding: 2% 0%;
+   color: #757575;
+}
+.resume-container h2 {
+   padding: 4% 0%;
+}
+hr{
+   border: 1px solid #D1D1D1; 
+   margin: 5% 0%;
+}
+/* .experience-info{
+   padding: 4% auto;
+} */
